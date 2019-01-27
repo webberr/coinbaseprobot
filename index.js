@@ -19,6 +19,16 @@ publicClient
     // handle the error
     console.dir(error);
   });
+  publicClient
+  .getProductHistoricRates('ETC-USD')
+  .then(data => {
+      // work with data
+      console.dir(data);
+    })
+    .catch(error => {
+      // handle the error
+      console.dir(error);
+    });
 
   publicClient
 .getProduct24HrStats('ETH-USD')
@@ -30,6 +40,16 @@ publicClient
     // handle the error
     console.dir(error);
   });
+  publicClient
+  .getProductHistoricRates('ETH-USD')
+  .then(data => {
+      // work with data
+      console.dir(data);
+    })
+    .catch(error => {
+      // handle the error
+      console.dir(error);
+    });
 
   publicClient
   .getProduct24HrStats('LTC-USD')
@@ -41,6 +61,17 @@ publicClient
       // handle the error
       console.dir(error);
     });
+
+    publicClient
+    .getProductHistoricRates('LTC-USD')
+    .then(data => {
+        // work with data
+        console.dir(data);
+      })
+      .catch(error => {
+        // handle the error
+        console.dir(error);
+      });
 
 // publicClient
 // .getCurrencies()
