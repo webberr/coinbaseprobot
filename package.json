@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/webberr/coinbaseprobot/issues"
   },
-  "homepage": "https://github.com/webberr/coinbaseprobot#readme"
+  "homepage": "https://github.com/webberr/coinbaseprobot#readme",
+  "dependencies": {
+    "gdax": "^0.8.0"
+  }
 }
